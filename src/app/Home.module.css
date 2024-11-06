@@ -1,0 +1,36 @@
+
+
+/* Home.module.css */
+
+.container {
+    max-width: 1200px; /* Limits the width of the container */
+    margin: 0 auto; /* Centers the container */
+    padding: 20px; /* Adds padding around the container */
+    display: flex; /* Enables flexbox for layout */
+    flex-wrap: wrap; /* Allows items to wrap onto multiple lines */
+    gap: 20px; /* Space between the items */
+  }
+  
+  .carCard {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    color: white; /* Text color */
+    border-radius: 8px; /* Rounded corners */
+    padding: 15px; /* Padding inside the card */
+    flex: 1 1 calc(33% - 20px); /* Flex item that takes up one-third of the row, minus gap */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+    transition: transform 0.2s; /* Smooth transition for hover effect */
+  }
+  
+  .carCard:hover {
+    transform: translateY(-5px); /* Slight lift effect on hover */
+  }
+  
+  .carTitle {
+    font-size: 1.5rem; /* Larger font size for the title */
+    margin-bottom: 5px; /* Space below the title */
+  }
+  
+  .carModel {
+    font-size: 1.2rem; /* Slightly smaller font size for the model */
+  }
+  

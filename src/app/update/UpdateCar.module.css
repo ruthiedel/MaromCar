@@ -1,0 +1,62 @@
+
+.container {
+    max-width: 600px; /* Limits the width of the form */
+    margin: 0 auto; /* Centers the form */
+    padding: 20px; /* Adds padding around the container */
+    background-color: rgba(255, 255, 255, 0.9); /* Light background for the form */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+.h2 {
+    text-align: center; /* Center the title */
+    margin-bottom: 20px; /* Space below the title */
+}
+
+.formGroup {
+    margin-bottom: 15px; /* Space between form groups */
+}
+
+.label {
+    display: block; /* Makes labels occupy full width */
+    margin-bottom: 5px; /* Space below the label */
+    font-weight: bold; /* Makes label text bold */
+}
+
+.input{
+    width: 100%; /* Full width inputs */
+    padding: 10px; /* Padding inside the input */
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 4px; /* Rounded corners for inputs */
+    font-size: 1rem; /* Font size */
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1); /* Inner shadow for depth */
+}
+
+.input{
+    border-color: #0070f3; /* Border color on focus */
+    outline: none; /* Remove default outline */
+    box-shadow: 0 0 5px rgba(0, 112, 243, 0.5); /* Shadow on focus */
+}
+
+.button {
+    width: 100%; /* Full width button */
+    padding: 10px; /* Padding inside the button */
+    background-color: #0070f3; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 1rem; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+.button:hover {
+    background-color: #005bb5; /* Darker shade on hover */
+}
+
+.message {
+    margin-top: 20px; /* Space above the message */
+    text-align: center; /* Center the message */
+    font-weight: bold; /* Makes message text bold */
+    color: #0070f3; /* Message color */
+}
