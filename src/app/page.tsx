@@ -30,6 +30,7 @@ export default function Home() {
 
   return (
     <div className={styles.container}>
+      <h2>Car List</h2>
       {cars.map((car) => (
         <div key={car._id} className={styles.carCard}>
           <h2 className={styles.carTitle}>{car.color}</h2>
